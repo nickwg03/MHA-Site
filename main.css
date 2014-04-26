@@ -1,0 +1,227 @@
+html{
+    /*background: rgba(172, 244, 172, 0.37);*/
+    background-image: url(img/tree_bkg.jpg);
+    background-size: cover;
+    
+
+}
+
+
+header a{
+    text-decoration: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: beige;
+}
+
+header{
+
+   
+    margin-bottom: 0;
+    padding: 10px;
+    border-bottom: 10px solid beige;
+    background: rgba(68, 208, 68, 0.8);
+    z-index: 1;
+    -webkit-box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+    -moz-box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+    box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+    
+}
+
+
+#header-body{
+    padding: 10px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+body {
+
+    max-width: 1000px;
+    min-width: 1000px;
+    font: 12pt arial, helvetica, sans-serif;
+    margin: auto;
+    padding: 0;
+    /*background-image: url(img/bkg.jpg);*/
+   
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }
+
+
+.title{
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+  
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+h1{
+    text-align: left;
+    font-size: 36px;
+}
+
+#content {
+    z-index: 3;
+    position: relative;
+    border-left: 10px solid beige;
+    /*opacity: .80;*/
+    /*background: white;
+    background-image: url(img/bkg.jpg);
+    background-position: center;*/
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 15px;
+    margin-left: 9em;
+    margin-right: 10px;
+    padding: 0 10px 20px 10px;
+    margin-bottom: 20px;
+    border-right: 1px solid beige;
+    border-bottom: 1px solid beige;
+    line-height: 1.25;
+}
+
+
+nav {
+
+    position: absolute;
+
+    left: -40px;
+    top: 85px;
+    width: 11em;
+    bottom: 3em;
+    /*background-image: url(img/menu3.jpg);*/
+    z-index: 2;
+    
+    
+}
+
+#selected a{
+    width: 80px;
+    padding: 2em;
+    font-weight: bold;
+    /*border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;*/
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 2px;
+    background: beige;
+}
+
+
+
+
+nav a{
+    display: block;
+    padding: 15px;
+
+
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border: 1px solid black;
+    -webkit-box-shadow: 0 5px 10px rgba(226, 224, 176, 0.6);
+    -moz-box-shadow: 0 5px 10px rgba(226, 224, 176, 0.71);
+    box-shadow: 0 5px 10px rgba(226, 224, 176, 0.71);
+}
+
+#non_select a{
+    background: rgba(245, 245, 220, 0.85);
+}
+
+#non_select a:hover{
+    background: beige;
+    transition: .5s;
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#aside{
+    
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    position: relative;
+    border: 5px solid green;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    background: beige;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+footer{
+    z-index: 1;
+    margin-top: 10px;
+    border-top: 10px solid beige;
+    font-size: 10pt;
+    padding: 2px;
+    background: rgba(68, 208, 68, 0.8);
+    -webkit-box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+    -moz-box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+    box-shadow: 0 5px 10px rgba(176, 201, 226, 0.65);
+}
+
+footer p{
+    
+    font-family: serif;
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+    color: beige;
+}
+
+#colleague{
+    color: green;
+    font-size: 16pt;
+    
+}
+
+#colleague-email{
+    color: #69a535;
+    font-size: 14pt;
+}   
+
+#colleague-img{
+    float: right;
+    position: relative;
+
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.fb-like{
+    padding: 30px;
+    margin: 10px;
+}
