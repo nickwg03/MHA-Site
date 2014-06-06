@@ -93,6 +93,7 @@ h1{
     border-right: 1px solid beige;
     border-bottom: 1px solid beige;
     line-height: 1.25;
+    min-height: 650px;
 }
 
 
